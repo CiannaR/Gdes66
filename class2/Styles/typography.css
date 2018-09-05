@@ -1,0 +1,17 @@
+/*Header Styles */
+h1 {
+color: teal;
+ }
+
+/* List styles */
+
+ul {list-style-type: none;
+    padding-left: 0px;
+
+}
+
+li {display: inline-block;margin-right: 50px;margin-left: 50px;}
+
+/*anchors amd links*/
+
+a{font-size: 15px;}
