@@ -10,7 +10,7 @@ main {width: 960px;
 
 }
 
-.fullcard:nth-child {
+.fullcard:nth-child(2) {
     float: right;
 }
 
