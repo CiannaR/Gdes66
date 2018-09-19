@@ -18,5 +18,6 @@ main {width: 960px;
 .fullcard img {width:100%;
 }
 
+.catcard img { float: right;}
 
-
+.cattext {float: left; margin-right: 30%}
