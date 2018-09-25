@@ -23,7 +23,8 @@ main{ margin-top: 58px;
 
 
 }
-.relative-position {position:relative; width:250px;height:150px;background-color:peru;left:100px;
+.relative-position {position:relative; width:250px;
+    height:150px;background-color:peru;left:100px;
 top:50px;
 }
 
