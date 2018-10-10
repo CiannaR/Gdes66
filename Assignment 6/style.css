@@ -1,8 +1,10 @@
 header {background-color: mintcream}
 
 footer {background-color: mintcream}
+
+
 nav {
-  font-size: 30px;background-color: bisque;
+  font-size: 30px;background-color: bisque;font-family: 'Fjalla One', sans-serif;
 }
 li a {
   display: block;
@@ -11,6 +13,11 @@ li a {
   text-decoration: none;
 }
 
+H1 {font-family: 'Fjalla One', sans-serif;}
+
+H2{font-family: 'Fjalla One', sans-serif;}
+
+p{font-family: 'Abel', sans-serif;}
 /* Change the link color on hover */
 li a:hover {
   background-color: #555;
