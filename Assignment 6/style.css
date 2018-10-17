@@ -1,8 +1,8 @@
 header {background-color: mintcream}
 
 footer {background-color: mintcream}
-
-
+body
+{background-color:mintcream}
 nav {
   font-size: 30px;background-color: bisque;font-family: 'Fjalla One', sans-serif;
 }
@@ -16,6 +16,8 @@ li a {
 H1 {font-family: 'Fjalla One', sans-serif;}
 
 H2{font-family: 'Fjalla One', sans-serif;}
+
+H3 {font-family: 'Fjalla One', sans-serif;}
 
 p{font-family: 'Abel', sans-serif;}
 /* Change the link color on hover */
@@ -65,3 +67,4 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
