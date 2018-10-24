@@ -1,10 +1,13 @@
+@media only screen and (max-width: 100%)
+
+
 header {background-color: mintcream}
 
 footer {background-color: mintcream}
 body
 {background-color:mintcream}
 nav {
-  font-size: 30px;background-color: bisque;font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;background-color: bisque;font-family: 'Fjalla One', sans-serif;text-align: center;
 }
 li a {
   display: block;
@@ -13,9 +16,9 @@ li a {
   text-decoration: none;
 }
 
-H1 {font-family: 'Fjalla One', sans-serif;}
+H1 {font-family: 'Fjalla One', sans-serif; text-align: center}
 
-H2{font-family: 'Fjalla One', sans-serif;}
+H2{font-family: 'Fjalla One', sans-serif; text-align: center}
 
 H3 {font-family: 'Fjalla One', sans-serif;}
 
@@ -68,3 +71,13 @@ div.desc {
     text-align: center;
 }
 
+div.container {
+  height: 10em;
+  position: relative }
+div.container {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+ 
+  transform: translate(-50%, -50%) }
