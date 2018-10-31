@@ -1,0 +1,53 @@
+ .<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <h1 id="docheader"> Goodnight Life </h1>
+
+    <div class="button-container">
+        <button onclick="showheader()"> Show Header</button>
+        <button onclick="hideheader()" id="hidebutton"> Hide Header! </button>
+    </div>
+
+  <p id="message"></p>
+
+    <script>
+    var header = document.getElementById ("docheader");
+
+    function showheader() {
+        console.log(header.style.visibility);
+        header.style.visibility = "visible";
+        document.getElementById("message").innerText = "";
+        document.getElementById("hidebutton").removeAttribute("disabled");
+
+        if(header.style.visibility === "visible") {
+            document.getElementById("showbutton").setAttribute("disabled" , "disabled");
+            document.getElementById("message").innerText = " The Header is Already Shown!" ;
+        }
+        header.style.visibility="visible";
+    }
+    function hideheader() {
+        console.log(header.style.visibility);
+        header.style.visibility = "hidden";
+            document.getElementById("hidebutton").setAttribute("disabled");
+            document.getElementById("message").innerText = "The Header is Already Hidden!";
+        }
+        if(header.style.visibility === "hidden"){
+            document.getElementById("hidebutton").setAttribute("disabled" , "disabled")
+
+
+        }
+    
+    </script>
+    
+</body>
+</html>
